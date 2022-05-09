@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: #aaa;
+}
+
+.container {
+    width: 600px;
+    border: 5px solid #000;
+    margin: 50px auto;
+    overflow: auto;
+}
+.container .thumbnail .thumb{
+    width: 200px;
+    border: 2px solid #000;
+    float: left;
+    box-sizing: border-box;
+}
+
+.container .thumbnail .thumb:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+@keyframes animasinya {
+    to{
+        opacity: 1;
+    }
+}
+
+.fade{
+    animation: animasinya 0.5s forwards;
+    opacity: 0;
+}
+
+.active{
+    opacity: 0.5;
+}
