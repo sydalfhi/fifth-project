@@ -15,6 +15,10 @@ body {
     margin: 50px auto;
     overflow: auto;
 }
+
+img.gambar-besar-item{
+    width: 600px;
+}
 .container .thumbnail .thumb{
     width: 200px;
     border: 2px solid #000;
